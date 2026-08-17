@@ -1,0 +1,162 @@
+{
+  "id": "forge",
+  "title": "FORGE — Fantasy Open Roleplaying Game Engine",
+  "description": "Autonomous Foundry VTT system for FORGE Anniversary Edition v1.1.2. Release 0.1.1.",
+  "version": "0.1.1",
+  "compatibility": {
+    "minimum": 13,
+    "verified": 13
+  },
+  "authors": [
+    {
+      "name": "FORGE System Contributors"
+    }
+  ],
+  "esmodules": [
+    "forge.mjs"
+  ],
+  "styles": [
+    "styles/forge.css",
+    "styles/forge-combat-tracker.css",
+    "styles/forge-sheets.css"
+  ],
+  "assets": {
+    "registry": "assets/manifests/assets.json",
+    "policy": "FORGE-Asset-Pipeline-SPEC.md",
+    "svgRoot": "assets/svg",
+    "aiRoot": "assets/ai",
+    "fallbackRoot": "assets/fallback",
+    "requireFallback": true,
+    "allowExternalUrls": false
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "character": {},
+      "creature": {},
+      "hireling": {},
+      "mercenary": {},
+      "companion": {},
+      "animal": {},
+      "force": {},
+      "settlement": {}
+    },
+    "Item": {
+      "weapon": {},
+      "armor": {},
+      "shield": {},
+      "helmet": {},
+      "equipment": {},
+      "tool": {},
+      "spell": {},
+      "scroll": {},
+      "consumable": {},
+      "poison": {},
+      "magicItem": {},
+      "vehicle": {},
+      "property": {},
+      "follower": {},
+      "naturalAttack": {},
+      "treasure": {},
+      "quest": {},
+      "injury": {}
+    }
+  },
+  "packs": [
+    {
+      "name": "core-rules",
+      "label": "FORGE Core Rules",
+      "type": "JournalEntry",
+      "system": "forge"
+    },
+    {
+      "name": "equipment",
+      "label": "FORGE Equipment",
+      "type": "Item",
+      "system": "forge"
+    },
+    {
+      "name": "arcane-spells",
+      "label": "FORGE Arcane Spells",
+      "type": "Item",
+      "system": "forge"
+    },
+    {
+      "name": "divine-spells",
+      "label": "FORGE Divine Spells",
+      "type": "Item",
+      "system": "forge"
+    },
+    {
+      "name": "creatures",
+      "label": "FORGE Creatures",
+      "type": "Actor",
+      "system": "forge"
+    },
+    {
+      "name": "magic-items",
+      "label": "FORGE Magic Items",
+      "type": "Item",
+      "system": "forge"
+    },
+    {
+      "name": "generators",
+      "label": "FORGE GM and Solo Generators",
+      "type": "RollTable",
+      "system": "forge"
+    },
+    {
+      "name": "scene-templates",
+      "label": "FORGE Macro Scene Templates",
+      "type": "Scene",
+      "system": "forge"
+    },
+    {
+      "name": "scene-journals",
+      "label": "FORGE Scene Prep Journals",
+      "type": "JournalEntry",
+      "system": "forge"
+    },
+    {
+      "name": "journals",
+      "label": "FORGE Reference Journals",
+      "type": "JournalEntry",
+      "system": "forge"
+    },
+    {
+      "name": "macros",
+      "label": "FORGE System Macros",
+      "type": "Macro",
+      "system": "forge"
+    }
+  ],
+  "grid": {
+    "distance": 30,
+    "units": "ft"
+  },
+  "primaryTokenAttribute": "resources.hp",
+  "secondaryTokenAttribute": "resources.morale",
+  "flags": {
+    "forge": {
+      "release": "0.1.1",
+      "assetPolicy": "svg-deterministic-with-ai-optional-fallback",
+      "distribution": "unlisted-public-artifact",
+      "sourceRepository": "private",
+      "sourceRepositoryUrl": "https://github.com/Felipe-Alves-VNGX/forge-foundryvtt",
+      "generatedAt": "2026-08-17T13:06:36.472Z"
+    }
+  },
+  "download": "https://raw.githubusercontent.com/Felipe-Alves-VNGX/forge-foundryvtt-dist-4b8d21c7/main/forge-0.1.1.zip",
+  "manifest": "https://raw.githubusercontent.com/Felipe-Alves-VNGX/forge-foundryvtt-dist-4b8d21c7/main/forge-0.1.1.manifest.json"
+}
