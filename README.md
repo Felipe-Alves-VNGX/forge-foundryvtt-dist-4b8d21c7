@@ -11,13 +11,13 @@ https://raw.githubusercontent.com/Felipe-Alves-VNGX/forge-foundryvtt-dist-4b8d21
 Versioned Manifest URL:
 
 ```text
-https://raw.githubusercontent.com/Felipe-Alves-VNGX/forge-foundryvtt-dist-4b8d21c7/main/forge-0.1.3.manifest.json
+https://raw.githubusercontent.com/Felipe-Alves-VNGX/forge-foundryvtt-dist-4b8d21c7/main/forge-0.1.4.manifest.json
 ```
 
 ZIP URL:
 
 ```text
-https://raw.githubusercontent.com/Felipe-Alves-VNGX/forge-foundryvtt-dist-4b8d21c7/main/forge-0.1.3.zip
+https://raw.githubusercontent.com/Felipe-Alves-VNGX/forge-foundryvtt-dist-4b8d21c7/main/forge-0.1.4.zip
 ```
 
 This repository is intentionally not linked from the private source repository and is not intended for catalog discovery. Anyone with the URL can access and redistribute the artifacts.
